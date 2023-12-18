@@ -1,0 +1,129 @@
+@media (max-width:885px){
+    .msg-text-2{
+        max-width: unset;
+        flex: unset;
+    }
+        .welcome-msg {
+            display: contents;
+    }
+
+    
+}
+@media (max-width:640px){
+.Navactive{
+    display: flex!important;
+}
+    #links{
+        display: none;
+        position: absolute;
+        padding: 0;
+        top: 4em;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        li{
+            margin: 1em auto;
+            
+        }
+    }
+    #menu{
+        display: block;
+        border: none;
+        background: transparent;
+    }
+    #menu i{
+        font-size: x-large;
+    }
+    .msg-text-1{
+        flex-direction: column
+    }
+    .msg-text-1 .text{
+        flex: unset;
+        max-width: unset;
+    }
+.services{
+    justify-content: start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.series.flex{
+    flex-direction: column;
+}
+.series .series-card{
+    flex:unset;
+    margin: auto;
+    max-width: 80%;
+}
+.services::-webkit-scrollbar {
+    display: none;
+  }
+    .welcome-img{
+        height: 500px;
+    }
+    .new-letter .div-img {
+        height: 100%;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width:552px){
+        .c-card.flex{
+            height: 100%;
+            flex-direction: column;
+        }
+        .imgslider{
+            height: 740px;
+        }
+        .c-card.flex .case-img{
+            max-width: 80%;
+           width: 80%;
+           flex: unset;
+
+        }
+        .case-content{
+            flex: 0 0 80%;
+            max-width: 80%;
+            margin-top: 4em;
+        }
+        .hero-text{
+            margin: 0 3em;
+        }
+        .hero-text h2{
+            font-size: x-large;
+        }
+}
+@media (max-width:450px){
+    .num001{
+        right: 2em;
+        right: unset;
+        left: 3em;
+        text-align: start;
+        top: 19%;
+    }
+    .num001 .flex{
+        flex-direction: row-reverse;
+    }
+    .series{
+        padding: 0;
+    }
+    .case-content{
+        margin-bottom: 4em;
+    }
+    .new-letter-content h2{
+        font-size: 20px;
+
+    }
+    .new-letter-content{
+        padding: 1em!important;
+        width: -webkit-fill-available;
+    }
+    .bg-black{
+        padding: 0;
+    }
+    .footer .f-contain{
+        padding: 0!important;
+    }
+    .footer{
+        gap: 1em;
+    }
+}
